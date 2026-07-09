@@ -1,0 +1,2606 @@
+{
+  "beginner": [
+    {
+      "id": "b1",
+      "type": "vocabulary",
+      "prompt": "다음 중 “학교”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "学校",
+        "老师",
+        "医生",
+        "桌子"
+      ],
+      "answer": 0,
+      "explanation": "“학교”表示“学校”。"
+    },
+    {
+      "id": "b2",
+      "type": "vocabulary",
+      "prompt": "다음 중 “집”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "家",
+        "老师",
+        "医生",
+        "桌子"
+      ],
+      "answer": 0,
+      "explanation": "“집”表示“家”。"
+    },
+    {
+      "id": "b3",
+      "type": "vocabulary",
+      "prompt": "다음 중 “사과”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "苹果",
+        "老师",
+        "医生",
+        "桌子"
+      ],
+      "answer": 0,
+      "explanation": "“사과”表示“苹果”。"
+    },
+    {
+      "id": "b4",
+      "type": "vocabulary",
+      "prompt": "다음 중 “책”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "书",
+        "老师",
+        "医生",
+        "桌子"
+      ],
+      "answer": 0,
+      "explanation": "“책”表示“书”。"
+    },
+    {
+      "id": "b5",
+      "type": "vocabulary",
+      "prompt": "다음 중 “우산”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "雨伞",
+        "老师",
+        "医生",
+        "桌子"
+      ],
+      "answer": 0,
+      "explanation": "“우산”表示“雨伞”。"
+    },
+    {
+      "id": "b6",
+      "type": "vocabulary",
+      "prompt": "다음 중 “친구”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "朋友",
+        "老师",
+        "医生",
+        "桌子"
+      ],
+      "answer": 0,
+      "explanation": "“친구”表示“朋友”。"
+    },
+    {
+      "id": "b7",
+      "type": "vocabulary",
+      "prompt": "다음 중 “공원”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "公园",
+        "老师",
+        "医生",
+        "桌子"
+      ],
+      "answer": 0,
+      "explanation": "“공원”表示“公园”。"
+    },
+    {
+      "id": "b8",
+      "type": "vocabulary",
+      "prompt": "다음 중 “가게”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "商店",
+        "老师",
+        "医生",
+        "桌子"
+      ],
+      "answer": 0,
+      "explanation": "“가게”表示“商店”。"
+    },
+    {
+      "id": "b9",
+      "type": "vocabulary",
+      "prompt": "다음 중 “음식”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "食物",
+        "老师",
+        "医生",
+        "桌子"
+      ],
+      "answer": 0,
+      "explanation": "“음식”表示“食物”。"
+    },
+    {
+      "id": "b10",
+      "type": "vocabulary",
+      "prompt": "다음 중 “전화”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "电话",
+        "老师",
+        "医生",
+        "桌子"
+      ],
+      "answer": 0,
+      "explanation": "“전화”表示“电话”。"
+    },
+    {
+      "id": "b11",
+      "type": "vocabulary",
+      "prompt": "다음 중 “문”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "门",
+        "老师",
+        "医生",
+        "桌子"
+      ],
+      "answer": 0,
+      "explanation": "“문”表示“门”。"
+    },
+    {
+      "id": "b12",
+      "type": "vocabulary",
+      "prompt": "다음 중 “교실”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "教室",
+        "老师",
+        "医生",
+        "桌子"
+      ],
+      "answer": 0,
+      "explanation": "“교실”表示“教室”。"
+    },
+    {
+      "id": "b13",
+      "type": "vocabulary",
+      "prompt": "다음 중 “모자”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "帽子",
+        "老师",
+        "医生",
+        "桌子"
+      ],
+      "answer": 0,
+      "explanation": "“모자”表示“帽子”。"
+    },
+    {
+      "id": "b14",
+      "type": "vocabulary",
+      "prompt": "다음 중 “바다”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "海",
+        "老师",
+        "医生",
+        "桌子"
+      ],
+      "answer": 0,
+      "explanation": "“바다”表示“海”。"
+    },
+    {
+      "id": "b15",
+      "type": "vocabulary",
+      "prompt": "다음 중 “비행기”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "飞机",
+        "老师",
+        "医生",
+        "桌子"
+      ],
+      "answer": 0,
+      "explanation": "“비행기”表示“飞机”。"
+    },
+    {
+      "id": "b16",
+      "type": "vocabulary",
+      "prompt": "다음 중 “운동”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "运动",
+        "老师",
+        "医生",
+        "桌子"
+      ],
+      "answer": 0,
+      "explanation": "“운동”表示“运动”。"
+    },
+    {
+      "id": "b17",
+      "type": "vocabulary",
+      "prompt": "다음 중 “날씨”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "天气",
+        "老师",
+        "医生",
+        "桌子"
+      ],
+      "answer": 0,
+      "explanation": "“날씨”表示“天气”。"
+    },
+    {
+      "id": "b18",
+      "type": "vocabulary",
+      "prompt": "다음 중 “시간”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "时间",
+        "老师",
+        "医生",
+        "桌子"
+      ],
+      "answer": 0,
+      "explanation": "“시간”表示“时间”。"
+    },
+    {
+      "id": "b19",
+      "type": "vocabulary",
+      "prompt": "다음 중 “아침”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "早上",
+        "老师",
+        "医生",
+        "桌子"
+      ],
+      "answer": 0,
+      "explanation": "“아침”表示“早上”。"
+    },
+    {
+      "id": "b20",
+      "type": "vocabulary",
+      "prompt": "다음 중 “저녁”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "晚上",
+        "老师",
+        "医生",
+        "桌子"
+      ],
+      "answer": 0,
+      "explanation": "“저녁”表示“晚上”。"
+    },
+    {
+      "id": "b21",
+      "type": "vocabulary",
+      "prompt": "다음 중 “학교”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "学校",
+        "老师",
+        "医生",
+        "桌子"
+      ],
+      "answer": 0,
+      "explanation": "“학교”表示“学校”。"
+    },
+    {
+      "id": "b22",
+      "type": "vocabulary",
+      "prompt": "다음 중 “집”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "家",
+        "老师",
+        "医生",
+        "桌子"
+      ],
+      "answer": 0,
+      "explanation": "“집”表示“家”。"
+    },
+    {
+      "id": "b23",
+      "type": "vocabulary",
+      "prompt": "다음 중 “사과”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "苹果",
+        "老师",
+        "医生",
+        "桌子"
+      ],
+      "answer": 0,
+      "explanation": "“사과”表示“苹果”。"
+    },
+    {
+      "id": "b24",
+      "type": "vocabulary",
+      "prompt": "다음 중 “책”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "书",
+        "老师",
+        "医生",
+        "桌子"
+      ],
+      "answer": 0,
+      "explanation": "“책”表示“书”。"
+    },
+    {
+      "id": "b25",
+      "type": "vocabulary",
+      "prompt": "다음 중 “우산”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "雨伞",
+        "老师",
+        "医生",
+        "桌子"
+      ],
+      "answer": 0,
+      "explanation": "“우산”表示“雨伞”。"
+    },
+    {
+      "id": "b26",
+      "type": "vocabulary",
+      "prompt": "다음 중 “친구”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "朋友",
+        "老师",
+        "医生",
+        "桌子"
+      ],
+      "answer": 0,
+      "explanation": "“친구”表示“朋友”。"
+    },
+    {
+      "id": "b27",
+      "type": "vocabulary",
+      "prompt": "다음 중 “공원”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "公园",
+        "老师",
+        "医生",
+        "桌子"
+      ],
+      "answer": 0,
+      "explanation": "“공원”表示“公园”。"
+    },
+    {
+      "id": "b28",
+      "type": "vocabulary",
+      "prompt": "다음 중 “가게”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "商店",
+        "老师",
+        "医生",
+        "桌子"
+      ],
+      "answer": 0,
+      "explanation": "“가게”表示“商店”。"
+    },
+    {
+      "id": "b29",
+      "type": "vocabulary",
+      "prompt": "다음 중 “음식”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "食物",
+        "老师",
+        "医生",
+        "桌子"
+      ],
+      "answer": 0,
+      "explanation": "“음식”表示“食物”。"
+    },
+    {
+      "id": "b30",
+      "type": "vocabulary",
+      "prompt": "다음 중 “전화”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "电话",
+        "老师",
+        "医生",
+        "桌子"
+      ],
+      "answer": 0,
+      "explanation": "“전화”表示“电话”。"
+    },
+    {
+      "id": "b31",
+      "type": "vocabulary",
+      "prompt": "다음 중 “문”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "门",
+        "老师",
+        "医生",
+        "桌子"
+      ],
+      "answer": 0,
+      "explanation": "“문”表示“门”。"
+    },
+    {
+      "id": "b32",
+      "type": "vocabulary",
+      "prompt": "다음 중 “교실”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "教室",
+        "老师",
+        "医生",
+        "桌子"
+      ],
+      "answer": 0,
+      "explanation": "“교실”表示“教室”。"
+    },
+    {
+      "id": "b33",
+      "type": "vocabulary",
+      "prompt": "다음 중 “모자”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "帽子",
+        "老师",
+        "医生",
+        "桌子"
+      ],
+      "answer": 0,
+      "explanation": "“모자”表示“帽子”。"
+    },
+    {
+      "id": "b34",
+      "type": "vocabulary",
+      "prompt": "다음 중 “바다”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "海",
+        "老师",
+        "医生",
+        "桌子"
+      ],
+      "answer": 0,
+      "explanation": "“바다”表示“海”。"
+    },
+    {
+      "id": "b35",
+      "type": "vocabulary",
+      "prompt": "다음 중 “비행기”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "飞机",
+        "老师",
+        "医生",
+        "桌子"
+      ],
+      "answer": 0,
+      "explanation": "“비행기”表示“飞机”。"
+    },
+    {
+      "id": "b36",
+      "type": "vocabulary",
+      "prompt": "다음 중 “운동”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "运动",
+        "老师",
+        "医生",
+        "桌子"
+      ],
+      "answer": 0,
+      "explanation": "“운동”表示“运动”。"
+    },
+    {
+      "id": "b37",
+      "type": "vocabulary",
+      "prompt": "다음 중 “날씨”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "天气",
+        "老师",
+        "医生",
+        "桌子"
+      ],
+      "answer": 0,
+      "explanation": "“날씨”表示“天气”。"
+    },
+    {
+      "id": "b38",
+      "type": "vocabulary",
+      "prompt": "다음 중 “시간”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "时间",
+        "老师",
+        "医生",
+        "桌子"
+      ],
+      "answer": 0,
+      "explanation": "“시간”表示“时间”。"
+    },
+    {
+      "id": "b39",
+      "type": "vocabulary",
+      "prompt": "다음 중 “아침”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "早上",
+        "老师",
+        "医生",
+        "桌子"
+      ],
+      "answer": 0,
+      "explanation": "“아침”表示“早上”。"
+    },
+    {
+      "id": "b40",
+      "type": "vocabulary",
+      "prompt": "다음 중 “저녁”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "晚上",
+        "老师",
+        "医生",
+        "桌子"
+      ],
+      "answer": 0,
+      "explanation": "“저녁”表示“晚上”。"
+    },
+    {
+      "id": "b41",
+      "type": "vocabulary",
+      "prompt": "다음 중 “학교”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "学校",
+        "老师",
+        "医生",
+        "桌子"
+      ],
+      "answer": 0,
+      "explanation": "“학교”表示“学校”。"
+    },
+    {
+      "id": "b42",
+      "type": "vocabulary",
+      "prompt": "다음 중 “집”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "家",
+        "老师",
+        "医生",
+        "桌子"
+      ],
+      "answer": 0,
+      "explanation": "“집”表示“家”。"
+    },
+    {
+      "id": "b43",
+      "type": "vocabulary",
+      "prompt": "다음 중 “사과”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "苹果",
+        "老师",
+        "医生",
+        "桌子"
+      ],
+      "answer": 0,
+      "explanation": "“사과”表示“苹果”。"
+    },
+    {
+      "id": "b44",
+      "type": "vocabulary",
+      "prompt": "다음 중 “책”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "书",
+        "老师",
+        "医生",
+        "桌子"
+      ],
+      "answer": 0,
+      "explanation": "“책”表示“书”。"
+    },
+    {
+      "id": "b45",
+      "type": "vocabulary",
+      "prompt": "다음 중 “우산”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "雨伞",
+        "老师",
+        "医生",
+        "桌子"
+      ],
+      "answer": 0,
+      "explanation": "“우산”表示“雨伞”。"
+    },
+    {
+      "id": "b46",
+      "type": "vocabulary",
+      "prompt": "다음 중 “친구”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "朋友",
+        "老师",
+        "医生",
+        "桌子"
+      ],
+      "answer": 0,
+      "explanation": "“친구”表示“朋友”。"
+    },
+    {
+      "id": "b47",
+      "type": "vocabulary",
+      "prompt": "다음 중 “공원”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "公园",
+        "老师",
+        "医生",
+        "桌子"
+      ],
+      "answer": 0,
+      "explanation": "“공원”表示“公园”。"
+    },
+    {
+      "id": "b48",
+      "type": "vocabulary",
+      "prompt": "다음 중 “가게”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "商店",
+        "老师",
+        "医生",
+        "桌子"
+      ],
+      "answer": 0,
+      "explanation": "“가게”表示“商店”。"
+    },
+    {
+      "id": "b49",
+      "type": "vocabulary",
+      "prompt": "다음 중 “음식”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "食物",
+        "老师",
+        "医生",
+        "桌子"
+      ],
+      "answer": 0,
+      "explanation": "“음식”表示“食物”。"
+    },
+    {
+      "id": "b50",
+      "type": "vocabulary",
+      "prompt": "다음 중 “전화”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "电话",
+        "老师",
+        "医生",
+        "桌子"
+      ],
+      "answer": 0,
+      "explanation": "“전화”表示“电话”。"
+    },
+    {
+      "id": "b51",
+      "type": "vocabulary",
+      "prompt": "다음 중 “문”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "门",
+        "老师",
+        "医生",
+        "桌子"
+      ],
+      "answer": 0,
+      "explanation": "“문”表示“门”。"
+    },
+    {
+      "id": "b52",
+      "type": "vocabulary",
+      "prompt": "다음 중 “교실”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "教室",
+        "老师",
+        "医生",
+        "桌子"
+      ],
+      "answer": 0,
+      "explanation": "“교실”表示“教室”。"
+    },
+    {
+      "id": "b53",
+      "type": "vocabulary",
+      "prompt": "다음 중 “모자”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "帽子",
+        "老师",
+        "医生",
+        "桌子"
+      ],
+      "answer": 0,
+      "explanation": "“모자”表示“帽子”。"
+    },
+    {
+      "id": "b54",
+      "type": "vocabulary",
+      "prompt": "다음 중 “바다”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "海",
+        "老师",
+        "医生",
+        "桌子"
+      ],
+      "answer": 0,
+      "explanation": "“바다”表示“海”。"
+    },
+    {
+      "id": "b55",
+      "type": "vocabulary",
+      "prompt": "다음 중 “비행기”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "飞机",
+        "老师",
+        "医生",
+        "桌子"
+      ],
+      "answer": 0,
+      "explanation": "“비행기”表示“飞机”。"
+    },
+    {
+      "id": "b56",
+      "type": "vocabulary",
+      "prompt": "다음 중 “운동”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "运动",
+        "老师",
+        "医生",
+        "桌子"
+      ],
+      "answer": 0,
+      "explanation": "“운동”表示“运动”。"
+    },
+    {
+      "id": "b57",
+      "type": "vocabulary",
+      "prompt": "다음 중 “날씨”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "天气",
+        "老师",
+        "医生",
+        "桌子"
+      ],
+      "answer": 0,
+      "explanation": "“날씨”表示“天气”。"
+    },
+    {
+      "id": "b58",
+      "type": "vocabulary",
+      "prompt": "다음 중 “시간”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "时间",
+        "老师",
+        "医生",
+        "桌子"
+      ],
+      "answer": 0,
+      "explanation": "“시간”表示“时间”。"
+    },
+    {
+      "id": "b59",
+      "type": "vocabulary",
+      "prompt": "다음 중 “아침”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "早上",
+        "老师",
+        "医生",
+        "桌子"
+      ],
+      "answer": 0,
+      "explanation": "“아침”表示“早上”。"
+    },
+    {
+      "id": "b60",
+      "type": "vocabulary",
+      "prompt": "다음 중 “저녁”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "晚上",
+        "老师",
+        "医生",
+        "桌子"
+      ],
+      "answer": 0,
+      "explanation": "“저녁”表示“晚上”。"
+    },
+    {
+      "id": "b61",
+      "type": "vocabulary",
+      "prompt": "다음 중 “학교”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "学校",
+        "老师",
+        "医生",
+        "桌子"
+      ],
+      "answer": 0,
+      "explanation": "“학교”表示“学校”。"
+    },
+    {
+      "id": "b62",
+      "type": "vocabulary",
+      "prompt": "다음 중 “집”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "家",
+        "老师",
+        "医生",
+        "桌子"
+      ],
+      "answer": 0,
+      "explanation": "“집”表示“家”。"
+    },
+    {
+      "id": "b63",
+      "type": "vocabulary",
+      "prompt": "다음 중 “사과”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "苹果",
+        "老师",
+        "医生",
+        "桌子"
+      ],
+      "answer": 0,
+      "explanation": "“사과”表示“苹果”。"
+    },
+    {
+      "id": "b64",
+      "type": "vocabulary",
+      "prompt": "다음 중 “책”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "书",
+        "老师",
+        "医生",
+        "桌子"
+      ],
+      "answer": 0,
+      "explanation": "“책”表示“书”。"
+    },
+    {
+      "id": "b65",
+      "type": "vocabulary",
+      "prompt": "다음 중 “우산”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "雨伞",
+        "老师",
+        "医生",
+        "桌子"
+      ],
+      "answer": 0,
+      "explanation": "“우산”表示“雨伞”。"
+    },
+    {
+      "id": "b66",
+      "type": "vocabulary",
+      "prompt": "다음 중 “친구”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "朋友",
+        "老师",
+        "医生",
+        "桌子"
+      ],
+      "answer": 0,
+      "explanation": "“친구”表示“朋友”。"
+    },
+    {
+      "id": "b67",
+      "type": "vocabulary",
+      "prompt": "다음 중 “공원”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "公园",
+        "老师",
+        "医生",
+        "桌子"
+      ],
+      "answer": 0,
+      "explanation": "“공원”表示“公园”。"
+    },
+    {
+      "id": "b68",
+      "type": "vocabulary",
+      "prompt": "다음 중 “가게”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "商店",
+        "老师",
+        "医生",
+        "桌子"
+      ],
+      "answer": 0,
+      "explanation": "“가게”表示“商店”。"
+    },
+    {
+      "id": "b69",
+      "type": "vocabulary",
+      "prompt": "다음 중 “음식”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "食物",
+        "老师",
+        "医生",
+        "桌子"
+      ],
+      "answer": 0,
+      "explanation": "“음식”表示“食物”。"
+    },
+    {
+      "id": "b70",
+      "type": "vocabulary",
+      "prompt": "다음 중 “전화”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "电话",
+        "老师",
+        "医生",
+        "桌子"
+      ],
+      "answer": 0,
+      "explanation": "“전화”表示“电话”。"
+    },
+    {
+      "id": "b71",
+      "type": "vocabulary",
+      "prompt": "다음 중 “문”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "门",
+        "老师",
+        "医生",
+        "桌子"
+      ],
+      "answer": 0,
+      "explanation": "“문”表示“门”。"
+    },
+    {
+      "id": "b72",
+      "type": "vocabulary",
+      "prompt": "다음 중 “교실”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "教室",
+        "老师",
+        "医生",
+        "桌子"
+      ],
+      "answer": 0,
+      "explanation": "“교실”表示“教室”。"
+    },
+    {
+      "id": "b73",
+      "type": "vocabulary",
+      "prompt": "다음 중 “모자”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "帽子",
+        "老师",
+        "医生",
+        "桌子"
+      ],
+      "answer": 0,
+      "explanation": "“모자”表示“帽子”。"
+    },
+    {
+      "id": "b74",
+      "type": "vocabulary",
+      "prompt": "다음 중 “바다”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "海",
+        "老师",
+        "医生",
+        "桌子"
+      ],
+      "answer": 0,
+      "explanation": "“바다”表示“海”。"
+    },
+    {
+      "id": "b75",
+      "type": "vocabulary",
+      "prompt": "다음 중 “비행기”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "飞机",
+        "老师",
+        "医生",
+        "桌子"
+      ],
+      "answer": 0,
+      "explanation": "“비행기”表示“飞机”。"
+    },
+    {
+      "id": "b76",
+      "type": "vocabulary",
+      "prompt": "다음 중 “운동”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "运动",
+        "老师",
+        "医生",
+        "桌子"
+      ],
+      "answer": 0,
+      "explanation": "“운동”表示“运动”。"
+    },
+    {
+      "id": "b77",
+      "type": "vocabulary",
+      "prompt": "다음 중 “날씨”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "天气",
+        "老师",
+        "医生",
+        "桌子"
+      ],
+      "answer": 0,
+      "explanation": "“날씨”表示“天气”。"
+    },
+    {
+      "id": "b78",
+      "type": "vocabulary",
+      "prompt": "다음 중 “시간”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "时间",
+        "老师",
+        "医生",
+        "桌子"
+      ],
+      "answer": 0,
+      "explanation": "“시간”表示“时间”。"
+    },
+    {
+      "id": "b79",
+      "type": "vocabulary",
+      "prompt": "다음 중 “아침”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "早上",
+        "老师",
+        "医生",
+        "桌子"
+      ],
+      "answer": 0,
+      "explanation": "“아침”表示“早上”。"
+    },
+    {
+      "id": "b80",
+      "type": "vocabulary",
+      "prompt": "다음 중 “저녁”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "晚上",
+        "老师",
+        "医生",
+        "桌子"
+      ],
+      "answer": 0,
+      "explanation": "“저녁”表示“晚上”。"
+    },
+    {
+      "id": "b81",
+      "type": "vocabulary",
+      "prompt": "다음 중 “학교”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "学校",
+        "老师",
+        "医生",
+        "桌子"
+      ],
+      "answer": 0,
+      "explanation": "“학교”表示“学校”。"
+    },
+    {
+      "id": "b82",
+      "type": "vocabulary",
+      "prompt": "다음 중 “집”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "家",
+        "老师",
+        "医生",
+        "桌子"
+      ],
+      "answer": 0,
+      "explanation": "“집”表示“家”。"
+    },
+    {
+      "id": "b83",
+      "type": "vocabulary",
+      "prompt": "다음 중 “사과”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "苹果",
+        "老师",
+        "医生",
+        "桌子"
+      ],
+      "answer": 0,
+      "explanation": "“사과”表示“苹果”。"
+    },
+    {
+      "id": "b84",
+      "type": "vocabulary",
+      "prompt": "다음 중 “책”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "书",
+        "老师",
+        "医生",
+        "桌子"
+      ],
+      "answer": 0,
+      "explanation": "“책”表示“书”。"
+    },
+    {
+      "id": "b85",
+      "type": "vocabulary",
+      "prompt": "다음 중 “우산”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "雨伞",
+        "老师",
+        "医生",
+        "桌子"
+      ],
+      "answer": 0,
+      "explanation": "“우산”表示“雨伞”。"
+    },
+    {
+      "id": "b86",
+      "type": "vocabulary",
+      "prompt": "다음 중 “친구”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "朋友",
+        "老师",
+        "医生",
+        "桌子"
+      ],
+      "answer": 0,
+      "explanation": "“친구”表示“朋友”。"
+    },
+    {
+      "id": "b87",
+      "type": "vocabulary",
+      "prompt": "다음 중 “공원”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "公园",
+        "老师",
+        "医生",
+        "桌子"
+      ],
+      "answer": 0,
+      "explanation": "“공원”表示“公园”。"
+    },
+    {
+      "id": "b88",
+      "type": "vocabulary",
+      "prompt": "다음 중 “가게”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "商店",
+        "老师",
+        "医生",
+        "桌子"
+      ],
+      "answer": 0,
+      "explanation": "“가게”表示“商店”。"
+    },
+    {
+      "id": "b89",
+      "type": "vocabulary",
+      "prompt": "다음 중 “음식”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "食物",
+        "老师",
+        "医生",
+        "桌子"
+      ],
+      "answer": 0,
+      "explanation": "“음식”表示“食物”。"
+    },
+    {
+      "id": "b90",
+      "type": "vocabulary",
+      "prompt": "다음 중 “전화”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "电话",
+        "老师",
+        "医生",
+        "桌子"
+      ],
+      "answer": 0,
+      "explanation": "“전화”表示“电话”。"
+    },
+    {
+      "id": "b91",
+      "type": "vocabulary",
+      "prompt": "다음 중 “문”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "门",
+        "老师",
+        "医生",
+        "桌子"
+      ],
+      "answer": 0,
+      "explanation": "“문”表示“门”。"
+    },
+    {
+      "id": "b92",
+      "type": "vocabulary",
+      "prompt": "다음 중 “교실”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "教室",
+        "老师",
+        "医生",
+        "桌子"
+      ],
+      "answer": 0,
+      "explanation": "“교실”表示“教室”。"
+    },
+    {
+      "id": "b93",
+      "type": "vocabulary",
+      "prompt": "다음 중 “모자”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "帽子",
+        "老师",
+        "医生",
+        "桌子"
+      ],
+      "answer": 0,
+      "explanation": "“모자”表示“帽子”。"
+    },
+    {
+      "id": "b94",
+      "type": "vocabulary",
+      "prompt": "다음 중 “바다”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "海",
+        "老师",
+        "医生",
+        "桌子"
+      ],
+      "answer": 0,
+      "explanation": "“바다”表示“海”。"
+    },
+    {
+      "id": "b95",
+      "type": "vocabulary",
+      "prompt": "다음 중 “비행기”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "飞机",
+        "老师",
+        "医生",
+        "桌子"
+      ],
+      "answer": 0,
+      "explanation": "“비행기”表示“飞机”。"
+    },
+    {
+      "id": "b96",
+      "type": "vocabulary",
+      "prompt": "다음 중 “운동”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "运动",
+        "老师",
+        "医生",
+        "桌子"
+      ],
+      "answer": 0,
+      "explanation": "“운동”表示“运动”。"
+    },
+    {
+      "id": "b97",
+      "type": "vocabulary",
+      "prompt": "다음 중 “날씨”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "天气",
+        "老师",
+        "医生",
+        "桌子"
+      ],
+      "answer": 0,
+      "explanation": "“날씨”表示“天气”。"
+    },
+    {
+      "id": "b98",
+      "type": "vocabulary",
+      "prompt": "다음 중 “시간”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "时间",
+        "老师",
+        "医生",
+        "桌子"
+      ],
+      "answer": 0,
+      "explanation": "“시간”表示“时间”。"
+    },
+    {
+      "id": "b99",
+      "type": "vocabulary",
+      "prompt": "다음 중 “아침”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "早上",
+        "老师",
+        "医生",
+        "桌子"
+      ],
+      "answer": 0,
+      "explanation": "“아침”表示“早上”。"
+    },
+    {
+      "id": "b100",
+      "type": "vocabulary",
+      "prompt": "다음 중 “저녁”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "晚上",
+        "老师",
+        "医生",
+        "桌子"
+      ],
+      "answer": 0,
+      "explanation": "“저녁”表示“晚上”。"
+    }
+  ],
+  "advanced": [
+    {
+      "id": "a1",
+      "type": "vocabulary",
+      "prompt": "다음 중 “협력하다”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "合作",
+        "天气",
+        "时间",
+        "关系"
+      ],
+      "answer": 0,
+      "explanation": "“협력하다”表示“合作”。"
+    },
+    {
+      "id": "a2",
+      "type": "vocabulary",
+      "prompt": "다음 중 “비판하다”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "批评",
+        "天气",
+        "时间",
+        "关系"
+      ],
+      "answer": 0,
+      "explanation": "“비판하다”表示“批评”。"
+    },
+    {
+      "id": "a3",
+      "type": "vocabulary",
+      "prompt": "다음 중 “예상하다”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "预期",
+        "天气",
+        "时间",
+        "关系"
+      ],
+      "answer": 0,
+      "explanation": "“예상하다”表示“预期”。"
+    },
+    {
+      "id": "a4",
+      "type": "vocabulary",
+      "prompt": "다음 중 “충분하다”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "足够",
+        "天气",
+        "时间",
+        "关系"
+      ],
+      "answer": 0,
+      "explanation": "“충분하다”表示“足够”。"
+    },
+    {
+      "id": "a5",
+      "type": "vocabulary",
+      "prompt": "다음 중 “관심”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "兴趣",
+        "天气",
+        "时间",
+        "关系"
+      ],
+      "answer": 0,
+      "explanation": "“관심”表示“兴趣”。"
+    },
+    {
+      "id": "a6",
+      "type": "vocabulary",
+      "prompt": "다음 중 “증거”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "证据",
+        "天气",
+        "时间",
+        "关系"
+      ],
+      "answer": 0,
+      "explanation": "“증거”表示“证据”。"
+    },
+    {
+      "id": "a7",
+      "type": "vocabulary",
+      "prompt": "다음 중 “형태”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "形状",
+        "天气",
+        "时间",
+        "关系"
+      ],
+      "answer": 0,
+      "explanation": "“형태”表示“形状”。"
+    },
+    {
+      "id": "a8",
+      "type": "vocabulary",
+      "prompt": "다음 중 “방향”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "方向",
+        "天气",
+        "时间",
+        "关系"
+      ],
+      "answer": 0,
+      "explanation": "“방향”表示“方向”。"
+    },
+    {
+      "id": "a9",
+      "type": "vocabulary",
+      "prompt": "다음 중 “기회”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "机会",
+        "天气",
+        "时间",
+        "关系"
+      ],
+      "answer": 0,
+      "explanation": "“기회”表示“机会”。"
+    },
+    {
+      "id": "a10",
+      "type": "vocabulary",
+      "prompt": "다음 중 “사실”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "事实",
+        "天气",
+        "时间",
+        "关系"
+      ],
+      "answer": 0,
+      "explanation": "“사실”表示“事实”。"
+    },
+    {
+      "id": "a11",
+      "type": "vocabulary",
+      "prompt": "다음 중 “대답”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "回答",
+        "天气",
+        "时间",
+        "关系"
+      ],
+      "answer": 0,
+      "explanation": "“대답”表示“回答”。"
+    },
+    {
+      "id": "a12",
+      "type": "vocabulary",
+      "prompt": "다음 중 “모습”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "样子",
+        "天气",
+        "时间",
+        "关系"
+      ],
+      "answer": 0,
+      "explanation": "“모습”表示“样子”。"
+    },
+    {
+      "id": "a13",
+      "type": "vocabulary",
+      "prompt": "다음 중 “차이”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "差异",
+        "天气",
+        "时间",
+        "关系"
+      ],
+      "answer": 0,
+      "explanation": "“차이”表示“差异”。"
+    },
+    {
+      "id": "a14",
+      "type": "vocabulary",
+      "prompt": "다음 중 “위험하다”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "危险",
+        "天气",
+        "时间",
+        "关系"
+      ],
+      "answer": 0,
+      "explanation": "“위험하다”表示“危险”。"
+    },
+    {
+      "id": "a15",
+      "type": "vocabulary",
+      "prompt": "다음 중 “효과적이다”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "有效的",
+        "天气",
+        "时间",
+        "关系"
+      ],
+      "answer": 0,
+      "explanation": "“효과적이다”表示“有效的”。"
+    },
+    {
+      "id": "a16",
+      "type": "vocabulary",
+      "prompt": "다음 중 “긍정적이다”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "积极的",
+        "天气",
+        "时间",
+        "关系"
+      ],
+      "answer": 0,
+      "explanation": "“긍정적이다”表示“积极的”。"
+    },
+    {
+      "id": "a17",
+      "type": "vocabulary",
+      "prompt": "다음 중 “복잡하다”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "复杂",
+        "天气",
+        "时间",
+        "关系"
+      ],
+      "answer": 0,
+      "explanation": "“복잡하다”表示“复杂”。"
+    },
+    {
+      "id": "a18",
+      "type": "vocabulary",
+      "prompt": "다음 중 “실용적이다”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "实用的",
+        "天气",
+        "时间",
+        "关系"
+      ],
+      "answer": 0,
+      "explanation": "“실용적이다”表示“实用的”。"
+    },
+    {
+      "id": "a19",
+      "type": "vocabulary",
+      "prompt": "다음 중 “중요하다”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "重要",
+        "天气",
+        "时间",
+        "关系"
+      ],
+      "answer": 0,
+      "explanation": "“중요하다”表示“重要”。"
+    },
+    {
+      "id": "a20",
+      "type": "vocabulary",
+      "prompt": "다음 중 “인정하다”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "承认",
+        "天气",
+        "时间",
+        "关系"
+      ],
+      "answer": 0,
+      "explanation": "“인정하다”表示“承认”。"
+    },
+    {
+      "id": "a21",
+      "type": "vocabulary",
+      "prompt": "다음 중 “협력하다”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "合作",
+        "天气",
+        "时间",
+        "关系"
+      ],
+      "answer": 0,
+      "explanation": "“협력하다”表示“合作”。"
+    },
+    {
+      "id": "a22",
+      "type": "vocabulary",
+      "prompt": "다음 중 “비판하다”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "批评",
+        "天气",
+        "时间",
+        "关系"
+      ],
+      "answer": 0,
+      "explanation": "“비판하다”表示“批评”。"
+    },
+    {
+      "id": "a23",
+      "type": "vocabulary",
+      "prompt": "다음 중 “예상하다”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "预期",
+        "天气",
+        "时间",
+        "关系"
+      ],
+      "answer": 0,
+      "explanation": "“예상하다”表示“预期”。"
+    },
+    {
+      "id": "a24",
+      "type": "vocabulary",
+      "prompt": "다음 중 “충분하다”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "足够",
+        "天气",
+        "时间",
+        "关系"
+      ],
+      "answer": 0,
+      "explanation": "“충분하다”表示“足够”。"
+    },
+    {
+      "id": "a25",
+      "type": "vocabulary",
+      "prompt": "다음 중 “관심”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "兴趣",
+        "天气",
+        "时间",
+        "关系"
+      ],
+      "answer": 0,
+      "explanation": "“관심”表示“兴趣”。"
+    },
+    {
+      "id": "a26",
+      "type": "vocabulary",
+      "prompt": "다음 중 “증거”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "证据",
+        "天气",
+        "时间",
+        "关系"
+      ],
+      "answer": 0,
+      "explanation": "“증거”表示“证据”。"
+    },
+    {
+      "id": "a27",
+      "type": "vocabulary",
+      "prompt": "다음 중 “형태”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "形状",
+        "天气",
+        "时间",
+        "关系"
+      ],
+      "answer": 0,
+      "explanation": "“형태”表示“形状”。"
+    },
+    {
+      "id": "a28",
+      "type": "vocabulary",
+      "prompt": "다음 중 “방향”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "方向",
+        "天气",
+        "时间",
+        "关系"
+      ],
+      "answer": 0,
+      "explanation": "“방향”表示“方向”。"
+    },
+    {
+      "id": "a29",
+      "type": "vocabulary",
+      "prompt": "다음 중 “기회”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "机会",
+        "天气",
+        "时间",
+        "关系"
+      ],
+      "answer": 0,
+      "explanation": "“기회”表示“机会”。"
+    },
+    {
+      "id": "a30",
+      "type": "vocabulary",
+      "prompt": "다음 중 “사실”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "事实",
+        "天气",
+        "时间",
+        "关系"
+      ],
+      "answer": 0,
+      "explanation": "“사실”表示“事实”。"
+    },
+    {
+      "id": "a31",
+      "type": "vocabulary",
+      "prompt": "다음 중 “대답”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "回答",
+        "天气",
+        "时间",
+        "关系"
+      ],
+      "answer": 0,
+      "explanation": "“대답”表示“回答”。"
+    },
+    {
+      "id": "a32",
+      "type": "vocabulary",
+      "prompt": "다음 중 “모습”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "样子",
+        "天气",
+        "时间",
+        "关系"
+      ],
+      "answer": 0,
+      "explanation": "“모습”表示“样子”。"
+    },
+    {
+      "id": "a33",
+      "type": "vocabulary",
+      "prompt": "다음 중 “차이”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "差异",
+        "天气",
+        "时间",
+        "关系"
+      ],
+      "answer": 0,
+      "explanation": "“차이”表示“差异”。"
+    },
+    {
+      "id": "a34",
+      "type": "vocabulary",
+      "prompt": "다음 중 “위험하다”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "危险",
+        "天气",
+        "时间",
+        "关系"
+      ],
+      "answer": 0,
+      "explanation": "“위험하다”表示“危险”。"
+    },
+    {
+      "id": "a35",
+      "type": "vocabulary",
+      "prompt": "다음 중 “효과적이다”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "有效的",
+        "天气",
+        "时间",
+        "关系"
+      ],
+      "answer": 0,
+      "explanation": "“효과적이다”表示“有效的”。"
+    },
+    {
+      "id": "a36",
+      "type": "vocabulary",
+      "prompt": "다음 중 “긍정적이다”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "积极的",
+        "天气",
+        "时间",
+        "关系"
+      ],
+      "answer": 0,
+      "explanation": "“긍정적이다”表示“积极的”。"
+    },
+    {
+      "id": "a37",
+      "type": "vocabulary",
+      "prompt": "다음 중 “복잡하다”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "复杂",
+        "天气",
+        "时间",
+        "关系"
+      ],
+      "answer": 0,
+      "explanation": "“복잡하다”表示“复杂”。"
+    },
+    {
+      "id": "a38",
+      "type": "vocabulary",
+      "prompt": "다음 중 “실용적이다”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "实用的",
+        "天气",
+        "时间",
+        "关系"
+      ],
+      "answer": 0,
+      "explanation": "“실용적이다”表示“实用的”。"
+    },
+    {
+      "id": "a39",
+      "type": "vocabulary",
+      "prompt": "다음 중 “중요하다”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "重要",
+        "天气",
+        "时间",
+        "关系"
+      ],
+      "answer": 0,
+      "explanation": "“중요하다”表示“重要”。"
+    },
+    {
+      "id": "a40",
+      "type": "vocabulary",
+      "prompt": "다음 중 “인정하다”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "承认",
+        "天气",
+        "时间",
+        "关系"
+      ],
+      "answer": 0,
+      "explanation": "“인정하다”表示“承认”。"
+    },
+    {
+      "id": "a41",
+      "type": "vocabulary",
+      "prompt": "다음 중 “협력하다”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "合作",
+        "天气",
+        "时间",
+        "关系"
+      ],
+      "answer": 0,
+      "explanation": "“협력하다”表示“合作”。"
+    },
+    {
+      "id": "a42",
+      "type": "vocabulary",
+      "prompt": "다음 중 “비판하다”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "批评",
+        "天气",
+        "时间",
+        "关系"
+      ],
+      "answer": 0,
+      "explanation": "“비판하다”表示“批评”。"
+    },
+    {
+      "id": "a43",
+      "type": "vocabulary",
+      "prompt": "다음 중 “예상하다”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "预期",
+        "天气",
+        "时间",
+        "关系"
+      ],
+      "answer": 0,
+      "explanation": "“예상하다”表示“预期”。"
+    },
+    {
+      "id": "a44",
+      "type": "vocabulary",
+      "prompt": "다음 중 “충분하다”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "足够",
+        "天气",
+        "时间",
+        "关系"
+      ],
+      "answer": 0,
+      "explanation": "“충분하다”表示“足够”。"
+    },
+    {
+      "id": "a45",
+      "type": "vocabulary",
+      "prompt": "다음 중 “관심”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "兴趣",
+        "天气",
+        "时间",
+        "关系"
+      ],
+      "answer": 0,
+      "explanation": "“관심”表示“兴趣”。"
+    },
+    {
+      "id": "a46",
+      "type": "vocabulary",
+      "prompt": "다음 중 “증거”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "证据",
+        "天气",
+        "时间",
+        "关系"
+      ],
+      "answer": 0,
+      "explanation": "“증거”表示“证据”。"
+    },
+    {
+      "id": "a47",
+      "type": "vocabulary",
+      "prompt": "다음 중 “형태”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "形状",
+        "天气",
+        "时间",
+        "关系"
+      ],
+      "answer": 0,
+      "explanation": "“형태”表示“形状”。"
+    },
+    {
+      "id": "a48",
+      "type": "vocabulary",
+      "prompt": "다음 중 “방향”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "方向",
+        "天气",
+        "时间",
+        "关系"
+      ],
+      "answer": 0,
+      "explanation": "“방향”表示“方向”。"
+    },
+    {
+      "id": "a49",
+      "type": "vocabulary",
+      "prompt": "다음 중 “기회”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "机会",
+        "天气",
+        "时间",
+        "关系"
+      ],
+      "answer": 0,
+      "explanation": "“기회”表示“机会”。"
+    },
+    {
+      "id": "a50",
+      "type": "vocabulary",
+      "prompt": "다음 중 “사실”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "事实",
+        "天气",
+        "时间",
+        "关系"
+      ],
+      "answer": 0,
+      "explanation": "“사실”表示“事实”。"
+    },
+    {
+      "id": "a51",
+      "type": "vocabulary",
+      "prompt": "다음 중 “대답”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "回答",
+        "天气",
+        "时间",
+        "关系"
+      ],
+      "answer": 0,
+      "explanation": "“대답”表示“回答”。"
+    },
+    {
+      "id": "a52",
+      "type": "vocabulary",
+      "prompt": "다음 중 “모습”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "样子",
+        "天气",
+        "时间",
+        "关系"
+      ],
+      "answer": 0,
+      "explanation": "“모습”表示“样子”。"
+    },
+    {
+      "id": "a53",
+      "type": "vocabulary",
+      "prompt": "다음 중 “차이”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "差异",
+        "天气",
+        "时间",
+        "关系"
+      ],
+      "answer": 0,
+      "explanation": "“차이”表示“差异”。"
+    },
+    {
+      "id": "a54",
+      "type": "vocabulary",
+      "prompt": "다음 중 “위험하다”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "危险",
+        "天气",
+        "时间",
+        "关系"
+      ],
+      "answer": 0,
+      "explanation": "“위험하다”表示“危险”。"
+    },
+    {
+      "id": "a55",
+      "type": "vocabulary",
+      "prompt": "다음 중 “효과적이다”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "有效的",
+        "天气",
+        "时间",
+        "关系"
+      ],
+      "answer": 0,
+      "explanation": "“효과적이다”表示“有效的”。"
+    },
+    {
+      "id": "a56",
+      "type": "vocabulary",
+      "prompt": "다음 중 “긍정적이다”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "积极的",
+        "天气",
+        "时间",
+        "关系"
+      ],
+      "answer": 0,
+      "explanation": "“긍정적이다”表示“积极的”。"
+    },
+    {
+      "id": "a57",
+      "type": "vocabulary",
+      "prompt": "다음 중 “복잡하다”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "复杂",
+        "天气",
+        "时间",
+        "关系"
+      ],
+      "answer": 0,
+      "explanation": "“복잡하다”表示“复杂”。"
+    },
+    {
+      "id": "a58",
+      "type": "vocabulary",
+      "prompt": "다음 중 “실용적이다”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "实用的",
+        "天气",
+        "时间",
+        "关系"
+      ],
+      "answer": 0,
+      "explanation": "“실용적이다”表示“实用的”。"
+    },
+    {
+      "id": "a59",
+      "type": "vocabulary",
+      "prompt": "다음 중 “중요하다”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "重要",
+        "天气",
+        "时间",
+        "关系"
+      ],
+      "answer": 0,
+      "explanation": "“중요하다”表示“重要”。"
+    },
+    {
+      "id": "a60",
+      "type": "vocabulary",
+      "prompt": "다음 중 “인정하다”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "承认",
+        "天气",
+        "时间",
+        "关系"
+      ],
+      "answer": 0,
+      "explanation": "“인정하다”表示“承认”。"
+    },
+    {
+      "id": "a61",
+      "type": "vocabulary",
+      "prompt": "다음 중 “협력하다”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "合作",
+        "天气",
+        "时间",
+        "关系"
+      ],
+      "answer": 0,
+      "explanation": "“협력하다”表示“合作”。"
+    },
+    {
+      "id": "a62",
+      "type": "vocabulary",
+      "prompt": "다음 중 “비판하다”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "批评",
+        "天气",
+        "时间",
+        "关系"
+      ],
+      "answer": 0,
+      "explanation": "“비판하다”表示“批评”。"
+    },
+    {
+      "id": "a63",
+      "type": "vocabulary",
+      "prompt": "다음 중 “예상하다”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "预期",
+        "天气",
+        "时间",
+        "关系"
+      ],
+      "answer": 0,
+      "explanation": "“예상하다”表示“预期”。"
+    },
+    {
+      "id": "a64",
+      "type": "vocabulary",
+      "prompt": "다음 중 “충분하다”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "足够",
+        "天气",
+        "时间",
+        "关系"
+      ],
+      "answer": 0,
+      "explanation": "“충분하다”表示“足够”。"
+    },
+    {
+      "id": "a65",
+      "type": "vocabulary",
+      "prompt": "다음 중 “관심”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "兴趣",
+        "天气",
+        "时间",
+        "关系"
+      ],
+      "answer": 0,
+      "explanation": "“관심”表示“兴趣”。"
+    },
+    {
+      "id": "a66",
+      "type": "vocabulary",
+      "prompt": "다음 중 “증거”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "证据",
+        "天气",
+        "时间",
+        "关系"
+      ],
+      "answer": 0,
+      "explanation": "“증거”表示“证据”。"
+    },
+    {
+      "id": "a67",
+      "type": "vocabulary",
+      "prompt": "다음 중 “형태”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "形状",
+        "天气",
+        "时间",
+        "关系"
+      ],
+      "answer": 0,
+      "explanation": "“형태”表示“形状”。"
+    },
+    {
+      "id": "a68",
+      "type": "vocabulary",
+      "prompt": "다음 중 “방향”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "方向",
+        "天气",
+        "时间",
+        "关系"
+      ],
+      "answer": 0,
+      "explanation": "“방향”表示“方向”。"
+    },
+    {
+      "id": "a69",
+      "type": "vocabulary",
+      "prompt": "다음 중 “기회”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "机会",
+        "天气",
+        "时间",
+        "关系"
+      ],
+      "answer": 0,
+      "explanation": "“기회”表示“机会”。"
+    },
+    {
+      "id": "a70",
+      "type": "vocabulary",
+      "prompt": "다음 중 “사실”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "事实",
+        "天气",
+        "时间",
+        "关系"
+      ],
+      "answer": 0,
+      "explanation": "“사실”表示“事实”。"
+    },
+    {
+      "id": "a71",
+      "type": "vocabulary",
+      "prompt": "다음 중 “대답”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "回答",
+        "天气",
+        "时间",
+        "关系"
+      ],
+      "answer": 0,
+      "explanation": "“대답”表示“回答”。"
+    },
+    {
+      "id": "a72",
+      "type": "vocabulary",
+      "prompt": "다음 중 “모습”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "样子",
+        "天气",
+        "时间",
+        "关系"
+      ],
+      "answer": 0,
+      "explanation": "“모습”表示“样子”。"
+    },
+    {
+      "id": "a73",
+      "type": "vocabulary",
+      "prompt": "다음 중 “차이”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "差异",
+        "天气",
+        "时间",
+        "关系"
+      ],
+      "answer": 0,
+      "explanation": "“차이”表示“差异”。"
+    },
+    {
+      "id": "a74",
+      "type": "vocabulary",
+      "prompt": "다음 중 “위험하다”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "危险",
+        "天气",
+        "时间",
+        "关系"
+      ],
+      "answer": 0,
+      "explanation": "“위험하다”表示“危险”。"
+    },
+    {
+      "id": "a75",
+      "type": "vocabulary",
+      "prompt": "다음 중 “효과적이다”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "有效的",
+        "天气",
+        "时间",
+        "关系"
+      ],
+      "answer": 0,
+      "explanation": "“효과적이다”表示“有效的”。"
+    },
+    {
+      "id": "a76",
+      "type": "vocabulary",
+      "prompt": "다음 중 “긍정적이다”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "积极的",
+        "天气",
+        "时间",
+        "关系"
+      ],
+      "answer": 0,
+      "explanation": "“긍정적이다”表示“积极的”。"
+    },
+    {
+      "id": "a77",
+      "type": "vocabulary",
+      "prompt": "다음 중 “복잡하다”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "复杂",
+        "天气",
+        "时间",
+        "关系"
+      ],
+      "answer": 0,
+      "explanation": "“복잡하다”表示“复杂”。"
+    },
+    {
+      "id": "a78",
+      "type": "vocabulary",
+      "prompt": "다음 중 “실용적이다”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "实用的",
+        "天气",
+        "时间",
+        "关系"
+      ],
+      "answer": 0,
+      "explanation": "“실용적이다”表示“实用的”。"
+    },
+    {
+      "id": "a79",
+      "type": "vocabulary",
+      "prompt": "다음 중 “중요하다”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "重要",
+        "天气",
+        "时间",
+        "关系"
+      ],
+      "answer": 0,
+      "explanation": "“중요하다”表示“重要”。"
+    },
+    {
+      "id": "a80",
+      "type": "vocabulary",
+      "prompt": "다음 중 “인정하다”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "承认",
+        "天气",
+        "时间",
+        "关系"
+      ],
+      "answer": 0,
+      "explanation": "“인정하다”表示“承认”。"
+    },
+    {
+      "id": "a81",
+      "type": "vocabulary",
+      "prompt": "다음 중 “협력하다”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "合作",
+        "天气",
+        "时间",
+        "关系"
+      ],
+      "answer": 0,
+      "explanation": "“협력하다”表示“合作”。"
+    },
+    {
+      "id": "a82",
+      "type": "vocabulary",
+      "prompt": "다음 중 “비판하다”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "批评",
+        "天气",
+        "时间",
+        "关系"
+      ],
+      "answer": 0,
+      "explanation": "“비판하다”表示“批评”。"
+    },
+    {
+      "id": "a83",
+      "type": "vocabulary",
+      "prompt": "다음 중 “예상하다”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "预期",
+        "天气",
+        "时间",
+        "关系"
+      ],
+      "answer": 0,
+      "explanation": "“예상하다”表示“预期”。"
+    },
+    {
+      "id": "a84",
+      "type": "vocabulary",
+      "prompt": "다음 중 “충분하다”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "足够",
+        "天气",
+        "时间",
+        "关系"
+      ],
+      "answer": 0,
+      "explanation": "“충분하다”表示“足够”。"
+    },
+    {
+      "id": "a85",
+      "type": "vocabulary",
+      "prompt": "다음 중 “관심”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "兴趣",
+        "天气",
+        "时间",
+        "关系"
+      ],
+      "answer": 0,
+      "explanation": "“관심”表示“兴趣”。"
+    },
+    {
+      "id": "a86",
+      "type": "vocabulary",
+      "prompt": "다음 중 “증거”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "证据",
+        "天气",
+        "时间",
+        "关系"
+      ],
+      "answer": 0,
+      "explanation": "“증거”表示“证据”。"
+    },
+    {
+      "id": "a87",
+      "type": "vocabulary",
+      "prompt": "다음 중 “형태”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "形状",
+        "天气",
+        "时间",
+        "关系"
+      ],
+      "answer": 0,
+      "explanation": "“형태”表示“形状”。"
+    },
+    {
+      "id": "a88",
+      "type": "vocabulary",
+      "prompt": "다음 중 “방향”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "方向",
+        "天气",
+        "时间",
+        "关系"
+      ],
+      "answer": 0,
+      "explanation": "“방향”表示“方向”。"
+    },
+    {
+      "id": "a89",
+      "type": "vocabulary",
+      "prompt": "다음 중 “기회”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "机会",
+        "天气",
+        "时间",
+        "关系"
+      ],
+      "answer": 0,
+      "explanation": "“기회”表示“机会”。"
+    },
+    {
+      "id": "a90",
+      "type": "vocabulary",
+      "prompt": "다음 중 “사실”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "事实",
+        "天气",
+        "时间",
+        "关系"
+      ],
+      "answer": 0,
+      "explanation": "“사실”表示“事实”。"
+    },
+    {
+      "id": "a91",
+      "type": "vocabulary",
+      "prompt": "다음 중 “대답”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "回答",
+        "天气",
+        "时间",
+        "关系"
+      ],
+      "answer": 0,
+      "explanation": "“대답”表示“回答”。"
+    },
+    {
+      "id": "a92",
+      "type": "vocabulary",
+      "prompt": "다음 중 “모습”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "样子",
+        "天气",
+        "时间",
+        "关系"
+      ],
+      "answer": 0,
+      "explanation": "“모습”表示“样子”。"
+    },
+    {
+      "id": "a93",
+      "type": "vocabulary",
+      "prompt": "다음 중 “차이”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "差异",
+        "天气",
+        "时间",
+        "关系"
+      ],
+      "answer": 0,
+      "explanation": "“차이”表示“差异”。"
+    },
+    {
+      "id": "a94",
+      "type": "vocabulary",
+      "prompt": "다음 중 “위험하다”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "危险",
+        "天气",
+        "时间",
+        "关系"
+      ],
+      "answer": 0,
+      "explanation": "“위험하다”表示“危险”。"
+    },
+    {
+      "id": "a95",
+      "type": "vocabulary",
+      "prompt": "다음 중 “효과적이다”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "有效的",
+        "天气",
+        "时间",
+        "关系"
+      ],
+      "answer": 0,
+      "explanation": "“효과적이다”表示“有效的”。"
+    },
+    {
+      "id": "a96",
+      "type": "vocabulary",
+      "prompt": "다음 중 “긍정적이다”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "积极的",
+        "天气",
+        "时间",
+        "关系"
+      ],
+      "answer": 0,
+      "explanation": "“긍정적이다”表示“积极的”。"
+    },
+    {
+      "id": "a97",
+      "type": "vocabulary",
+      "prompt": "다음 중 “복잡하다”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "复杂",
+        "天气",
+        "时间",
+        "关系"
+      ],
+      "answer": 0,
+      "explanation": "“복잡하다”表示“复杂”。"
+    },
+    {
+      "id": "a98",
+      "type": "vocabulary",
+      "prompt": "다음 중 “실용적이다”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "实用的",
+        "天气",
+        "时间",
+        "关系"
+      ],
+      "answer": 0,
+      "explanation": "“실용적이다”表示“实用的”。"
+    },
+    {
+      "id": "a99",
+      "type": "vocabulary",
+      "prompt": "다음 중 “중요하다”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "重要",
+        "天气",
+        "时间",
+        "关系"
+      ],
+      "answer": 0,
+      "explanation": "“중요하다”表示“重要”。"
+    },
+    {
+      "id": "a100",
+      "type": "vocabulary",
+      "prompt": "다음 중 “인정하다”의 뜻으로 가장 알맞은 것은 무엇입니까?",
+      "options": [
+        "承认",
+        "天气",
+        "时间",
+        "关系"
+      ],
+      "answer": 0,
+      "explanation": "“인정하다”表示“承认”。"
+    }
+  ]
+}

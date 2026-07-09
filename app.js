@@ -1,79 +1,8 @@
-const QUESTIONS = {
-  beginner: [
-    {
-      id: 'b1',
-      prompt: '다음 중 “좋아하다”의 뜻으로 가장 알맞은 단어는 무엇입니까?',
-      options: ['좋다', '싫어하다', '사랑하다', '먹다'],
-      answer: 0,
-      explanation: '“좋아하다”表示“喜欢、喜爱”的意思，强调对某件事或某人有好感或喜欢。'
-    },
-    {
-      id: 'b2',
-      prompt: '다음 문장에서 빈칸에 들어갈 가장 자연스러운 표현은 무엇입니까? “저는 아침에 ___ 밥을 먹어요.”',
-      options: ['빨리', '맛있게', '아침', '조용히'],
-      answer: 2,
-      explanation: '根据语境，“아침 밥”是固定表达，所以这里最合适填“아침”。'
-    },
-    {
-      id: 'b3',
-      prompt: '“학교에 가요”는 무엇을 의미합니까?',
-      options: ['학교에 간다', '학교에 없다', '학교를 떠난다', '학교를 봐요'],
-      answer: 0,
-      explanation: '“가요”是“간다”的敬语形式，意思就是“去学校”。'
-    },
-    {
-      id: 'b4',
-      prompt: '다음 중 한국어로 가장 자연스럽게 옳은 표현은 무엇입니까?',
-      options: ['저는 학생이에요', '저는 학생이예요', '저는 학생이예요.', '저는 학생입니다.'],
-      answer: 2,
-      explanation: '在日常表达中，“저는 학생이에요”最自然、最常见。'
-    },
-    {
-      id: 'b5',
-      prompt: '“감사합니다”의 뜻은 무엇입니까?',
-      options: ['미안합니다', '고맙습니다', '안녕하세요', '잘 가요'],
-      answer: 1,
-      explanation: '“감사합니다”就是“感谢你/多谢”的敬语，相当于“고맙습니다”。'
-    }
-  ],
-  advanced: [
-    {
-      id: 'a1',
-      prompt: '다음 문장에서 밑줄 친 부분의 의미가 가장 가까운 것은 무엇입니까? “그는 하루 종일 바쁘게 움직였다.”',
-      options: ['조용히 앉아 있었다', '여러 일을 열심히 처리했다', '아무 일도 하지 않았다', '사람들을 기다렸다'],
-      answer: 1,
-      explanation: '“바쁘게 움직였다”表示整天都在忙着处理各种事情。'
-    },
-    {
-      id: 'a2',
-      prompt: '다음 중 “마음이 놓이다”의 뜻으로 가장 적절한 것은 무엇입니까?',
-      options: ['걱정이 사라지다', '화가 나다', '실수를 하다', '늦게 도착하다'],
-      answer: 0,
-      explanation: '“마음이 놓이다”表示内心放松、焦虑消失，变得安心。'
-    },
-    {
-      id: 'a3',
-      prompt: '“비가 오면 바깥에 나가지 않겠다”라는 문장에서 빈칸에 들어갈 표현은 무엇입니까?',
-      options: ['만약', '하지만', '그래서', '그러면'],
-      answer: 0,
-      explanation: '这里表示条件，“如果下雨的话”最自然，所以用“만약”。'
-    },
-    {
-      id: 'a4',
-      prompt: '다음 중 가장 공손한 표현은 무엇입니까?',
-      options: ['가자', '가요', '갑니다', '갈래'],
-      answer: 2,
-      explanation: '“갑니다”比“가요”更礼貌、更正式。'
-    },
-    {
-      id: 'a5',
-      prompt: '“그 이야기는 사실이 아니다”의 의미를 가장 잘 나타내는 문장은 무엇입니까?',
-      options: ['그 이야기는 사실이다', '그 이야기는 허구이다', '그 이야기는 중요하다', '그 이야기는 재밌다'],
-      answer: 1,
-      explanation: '“사실이 아니다”表示这件事并非事实，等同于“是虚构的/是假的”。'
-    }
-  ]
-};
+let QUESTIONS = {};
+
+const DB_NAME = 'topik-db';
+const DB_VERSION = 1;
+const QUESTION_STORE = 'questions';
 
 const state = {
   level: 'beginner',
@@ -100,7 +29,8 @@ const elements = {
   favoritesTitle: document.getElementById('favoritesTitle')
 };
 
-function init() {
+async function init() {
+  await loadQuestions();
   const saved = JSON.parse(localStorage.getItem('topik-app-state') || '{}');
   state.level = saved.level || 'beginner';
   state.mode = saved.mode || 'practice';
@@ -113,6 +43,69 @@ function init() {
   elements.levelSelect.value = state.level;
   document.querySelector(`[data-mode="${state.mode}"]`).classList.add('active');
   render();
+}
+
+async function loadQuestions() {
+  try {
+    const response = await fetch('./data/questions.json');
+    if (!response.ok) {
+      throw new Error('Failed to load questions');
+    }
+    const payload = await response.json();
+    QUESTIONS = payload;
+    await saveQuestionsToDB(payload);
+  } catch (error) {
+    const data = await readQuestionsFromDB();
+    if (data) {
+      QUESTIONS = data;
+    } else {
+      QUESTIONS = { beginner: [], advanced: [] };
+    }
+  }
+}
+
+function openQuestionsDB() {
+  return new Promise((resolve, reject) => {
+    const request = indexedDB.open(DB_NAME, DB_VERSION);
+    request.onupgradeneeded = (event) => {
+      const db = event.target.result;
+      if (!db.objectStoreNames.contains(QUESTION_STORE)) {
+        db.createObjectStore(QUESTION_STORE);
+      }
+    };
+    request.onsuccess = () => resolve(request.result);
+    request.onerror = () => reject(request.error);
+  });
+}
+
+function readQuestionsFromDB() {
+  return new Promise(async (resolve) => {
+    try {
+      const db = await openQuestionsDB();
+      const transaction = db.transaction(QUESTION_STORE, 'readonly');
+      const store = transaction.objectStore(QUESTION_STORE);
+      const request = store.get('all');
+      request.onsuccess = () => resolve(request.result || null);
+      request.onerror = () => resolve(null);
+    } catch (error) {
+      resolve(null);
+    }
+  });
+}
+
+function saveQuestionsToDB(payload) {
+  return new Promise(async (resolve) => {
+    try {
+      const db = await openQuestionsDB();
+      const transaction = db.transaction(QUESTION_STORE, 'readwrite');
+      const store = transaction.objectStore(QUESTION_STORE);
+      const request = store.put(payload, 'all');
+      request.onsuccess = () => resolve(true);
+      request.onerror = () => resolve(false);
+    } catch (error) {
+      resolve(false);
+    }
+  });
 }
 
 function saveState() {
