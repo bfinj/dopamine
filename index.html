@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TOPIK 刷题 App</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="top-bar">
+        <div>
+          <p class="eyebrow">韩语学习助手</p>
+          <h1>TOPIK 题库练习</h1>
+        </div>
+        <label class="level-switch">
+          <span>考试级别</span>
+          <select id="levelSelect">
+            <option value="beginner">TOPIK 初级</option>
+            <option value="advanced">TOPIK 中高级</option>
+          </select>
+        </label>
+      </header>
+
+      <main class="main-grid">
+        <section class="content-card">
+          <div class="module-tabs" role="tablist" aria-label="练习模块">
+            <button class="tab active" data-mode="practice">刷题练习</button>
+            <button class="tab" data-mode="mock">模拟考试</button>
+          </div>
+
+          <div id="questionArea" class="question-area"></div>
+        </section>
+
+        <aside class="sidebar">
+          <section class="sidebar-card">
+            <button class="sidebar-title" id="favoritesTitle">收藏夹</button>
+            <ul id="favoritesList" class="list"></ul>
+          </section>
+          <section class="sidebar-card">
+            <button class="sidebar-title" id="wrongBookTitle">错题本</button>
+            <ul id="wrongList" class="list"></ul>
+          </section>
+        </aside>
+      </main>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
